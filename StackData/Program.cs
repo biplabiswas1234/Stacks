@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace StackData
+namespace StackDataStructure
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            StackData stackData = new StackData();
+            stackData.Display();
+
         }
     }
 }
