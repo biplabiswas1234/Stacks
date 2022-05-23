@@ -6,8 +6,8 @@ namespace StackDataStructure
     {
         static void Main(string[] args)
         {
-            QueueData queueData = new QueueData();
-            queueData.Display();
+            DequeueData dequeueData = new DequeueData();
+            dequeueData.Display();
 
         }
     }
