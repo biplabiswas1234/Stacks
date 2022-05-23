@@ -6,9 +6,8 @@ namespace StackDataStructure
     {
         static void Main(string[] args)
         {
-            StackData stackData = new StackData();
-            stackData.Display();
-            stackData.Pop();
+            QueueData queueData = new QueueData();
+            queueData.Display();
 
         }
     }
