@@ -8,6 +8,7 @@ namespace StackDataStructure
         {
             StackData stackData = new StackData();
             stackData.Display();
+            stackData.Pop();
 
         }
     }
